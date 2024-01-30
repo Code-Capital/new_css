@@ -332,7 +332,7 @@ input[type=checkbox] {
 
 #cc:not(.cc_width_exc), .cc_limit_width, #header:not(.cc_width_exc), #footer:not(.cc_width_exc), #header_nav.cc-headernav-sticky #menu {
   max-width: 100% !important;
-  width: 100% !important;
+  padding: 4rem;
 }
 
 #cc .lp_trip {
