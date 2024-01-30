@@ -350,6 +350,7 @@ input[type=checkbox] {
 #footer table {
   padding: 4rem !important;
   max-width: 100% !important;
+  width: 100% !important;
   margin: 0 !important;
 }
 #footer table tbody tr td p strong span a {
