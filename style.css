@@ -331,7 +331,21 @@ input[type=checkbox] {
     border-radius: 12px !important;
     border: unset !important;
 }
-
+#cc .lp_double_box{
+    border-radius: 12px !important;
+    border: unset !important;
+}
+#cc .cc-swiper7 .lp_slider_box{
+    border-radius: 12px !important;
+    border: unset !important;
+}
+#cc .lp_six_box {
+    border-radius: 12px !important;
+    border: unset !important;
+}
+.swiper-wrapper{
+    padding-bottom: 2rem !important;
+}
 #cc .lp_trip_box_offimage .content {
     margin: 10px 15px 0px 15px !important;
 }
