@@ -376,11 +376,11 @@ input[type=checkbox] {
 #footer table tbody tr td p strong span a {
     padding-top: 10px !important;
 }
-#slideshow-10 .slide-container .slide-image-wrap .slide-image{
+.slide-image-wrap .slide-image{
     border-radius: 12px !important;
-    box-shadow: 0px 6px 10px #0004;
+    box-shadow: 0px 6px 10px #0004 !important;
 }
 
-.slides-wrap page_gallery_thumb ul li a img{
+.slides-wrap .page_gallery_thumb ul li a img{
     border-radius: 12px !important;
 }
