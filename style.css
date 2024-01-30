@@ -1,0 +1,359 @@
+body,
+html {
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+#mainpage {
+    margin: 0 auto;
+}
+
+#header {
+    background-image: url("https://images.cruisec.net/images/imgdb/200281/4747ce602396373bfcfe0a3ef5e3efe8.jpg");
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #006699;
+    font-family: "robotolight", sans-serif;
+}
+
+#header > .cc_limit_width {
+    position: relative;
+}
+
+@media only screen and (min-width: 769px) {
+    #header > .cc_limit_width {
+        height: 450px;
+    }
+}
+#footer {
+    background-color: #FFFFFF;
+    color: #006699;
+    padding: 20px 5%;
+    box-sizing: border-box;
+}
+
+#footer.injected-content {
+    padding: 0;
+}
+
+#header_nav {
+    position: relative;
+    height: 27px;
+}
+
+#header_logo,
+#header_img,
+#header_sub,
+#header_lang_switch,
+#header_openinghours {
+    position: absolute;
+}
+
+#header_img {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+
+#header_openinghours {
+    top: 20px;
+    right: 5%;
+}
+
+#header_logo {
+    left: 20px;
+    top: 18px;
+}
+
+#header_lang_switch {
+    padding: 5px 0px;
+    bottom: 0px;
+    right: 5%;
+    z-index: 1001;
+}
+
+#header_nav {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+#menu {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 0 12px;
+    background-color: #006699;
+    z-index: 1000;
+}
+
+/* Navigation */
+/*Strip the ul of padding and list styling*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+/*Create a horizontal list with spacing*/
+li {
+    display: inline-block;
+    float: left;
+}
+
+/*Style for menu links*/
+li a {
+    display: block;
+    text-transform: none;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    color: #FFFFFF;
+    padding: 5px 8px;
+    font-size: 14px;
+}
+
+li:hover a {
+    background: #FFFFFF;
+    color: #006699;
+}
+
+/*Style for dropdown links*/
+li:hover ul a {
+    text-align: left;
+    background: #006699;
+    color: #FFFFFF;
+    padding: 5px 8px;
+}
+
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+    background: #FFFFFF;
+    color: #006699;
+}
+
+/*Hide dropdown links until they are needed*/
+li ul {
+    display: none;
+    z-index: 100;
+}
+
+li span {
+    color: rgb(0, 102, 153);
+}
+
+/*Make dropdown links vertical*/
+li ul li {
+    display: block;
+    float: none;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden,
+.hidden:hover {
+    display: block;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+    background-image: url("//www.cpm.cruise-ibe.com/header_cruisec/logo_nav.svg");
+    background-repeat: no-repeat;
+    display: none;
+    height: 40px;
+    width: 40px;
+    background-position: 20px;
+}
+
+/*Hide checkbox*/
+input[type=checkbox] {
+    display: none;
+}
+
+#menu_lang_switch {
+    display: none;
+}
+
+#menu_call_button {
+    display: none;
+    background-image: url(https://images.cruisec.net/headers/icons/phone.svg);
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*Show menu when invisible checkbox is checked*/
+@media only screen and (max-width: 768px) {
+    #header {
+        height: auto;
+        background-image: none;
+    }
+    #header_nav {
+        position: static;
+        height: 40px;
+    }
+    #header_nav.double {
+        height: 80px;
+    }
+    #mainpage {
+        width: 100%;
+    }
+    .show-menu {
+        display: inline-block;
+        position: absolute;
+        bottom: 0px;
+    }
+    #show-menu:checked ~ #menu {
+        display: block !important;
+    }
+    #menu {
+        position: absolute;
+        left: 0;
+        top: 40px;
+        bottom: auto;
+        padding: 0;
+        display: none;
+        width: 100%;
+        z-index: 1000;
+    }
+    #header_nav.double #menu {
+        top: 80px;
+    }
+    #menu li {
+        float: none;
+        display: block;
+    }
+    #menu li a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        padding: 8px 8px;
+        font-size: 15px;
+    }
+    #menu li ul {
+        display: none;
+        position: static;
+    }
+    #menu li:hover ul {
+        display: block;
+    }
+    #header_lang_switch {
+        display: none;
+    }
+    #menu_lang_switch {
+        display: block;
+    }
+    #header_openinghours {
+        position: static;
+        display: none;
+    }
+    #header_logo {
+        left: 50%;
+        top: 0%;
+        height: 100%;
+        transform: translateX(-50%);
+        max-width: calc(100% - 100px);
+    }
+    #header_logo img {
+        width: auto;
+        height: 100%;
+    }
+    #header_img {
+        display: none;
+    }
+    #menu_call_button {
+        display: block;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        bottom: 0px;
+        right: 10px;
+    }
+}
+.cc_limit_width {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.cc_limit_width #menu {
+    padding: 10px 12px !important;
+}
+
+#cc .lp_six {
+    padding: 4rem;
+}
+
+#header_nav {
+    top: 22px !important;
+}
+
+#header_logo {
+    top: 50px !important;
+}
+
+#header_openinghours {
+    top: 40px !important;
+}
+
+.cc_limit_width pagemaker-widget cc-widget--carousel {
+    padding: 4rem !important;
+}
+
+.lp_trip_box_offimage {
+    min-height: 480px !important;
+}
+
+@media only screen and (min-width: 769px) {
+    #header > .cc_limit_width {
+        height: 210px !important;
+    }
+}
+.cc_limit_width {
+    max-width: unset !important;
+    margin: 0 auto !important;
+}
+
+#cc .lp_trip_box_offimage {
+    min-height: 480px !important;
+}
+
+#cc .lp_trip_box_offimage .content {
+    margin: 10px 15px 0px 15px !important;
+}
+
+#cc:not(.cc_width_exc), .cc_limit_width, #header:not(.cc_width_exc), #footer:not(.cc_width_exc), #header_nav.cc-headernav-sticky #menu {
+    max-width: 100% !important;
+    padding: 4rem;
+}
+
+#cc .lp_trip {
+    padding: 4rem !important;
+}
+
+#cc .cc-swiper7 .lp_slider_box {
+    min-height: 300px !important;
+}
+
+.cc-widget--content .textbox {
+    padding: 4rem !important;
+}
+
+#footer table {
+    padding: 4rem !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+#footer table tbody tr td p strong span a {
+    padding-top: 10px !important;
+}
+
