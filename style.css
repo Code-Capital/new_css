@@ -322,11 +322,12 @@ input[type=checkbox] {
     margin: 0 auto !important;
 }
 
-#cc .lp_trip_box_offimage {
+.lp_trip_box_offimage {
     min-height: 480px !important;
     border-radius: 12px !important;
     border: unset !important;
 }
+.lp_six_box_offimage
 
 #cc .lp_trip_box_offimage .content {
     margin: 10px 15px 0px 15px !important;
