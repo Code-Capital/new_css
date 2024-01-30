@@ -281,6 +281,7 @@ input[type=checkbox] {
     }
 }
 .cc_limit_width {
+    width: unset !important;
     max-width: 100% !important;
 }
 .cc_limit_width #menu {
@@ -317,7 +318,7 @@ input[type=checkbox] {
     }
 }
 .cc_limit_width {
-    max-width: unset !important;
+    max-width: 100% !important;
     margin: 0 auto !important;
 }
 
