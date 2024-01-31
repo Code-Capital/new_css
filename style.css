@@ -374,13 +374,15 @@ input[type=checkbox] {
     margin: 0 !important;
 }
 #footer table tbody tr td p strong span a {
-    padding-top: 10px !important;
+    line-height: 2;
 }
 .slide-image-wrap .slide-image{
     border-radius: 12px !important;
     box-shadow: 0px 6px 10px #0004 !important;
 }
-
-.slides-wrap .page_gallery_thumb ul li a img{
+#cc .slide_prev, #cc .slide_next{
+    border-radius: 12px !important;
+}
+#cc .slides-wrap ul li img{
     border-radius: 12px !important;
 }
