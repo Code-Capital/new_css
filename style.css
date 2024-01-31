@@ -380,6 +380,12 @@ input[type=checkbox] {
 #footer table tbody tr td p strong span , #footer table tbody tr td p strong span a{
     line-height: 1.6;
 }
+#footer table tbody tr td p strong span a:-webkit-any-link{
+    text-decoration: none !important;
+}
+#footer table tbody tr td p strong span a:hover:-webkit-any-link{
+    text-decoration: underline !important;
+}
 .slide-image-wrap .slide-image{
     border-radius: 12px !important;
     box-shadow: 0px 6px 10px #0004 !important;
