@@ -373,7 +373,7 @@ input[type=checkbox] {
     width: 100% !important;
     margin: 0 !important;
 }
-#footer table tbody tr td p strong span a {
+#footer table tbody tr td p strong span {
     line-height: 2;
 }
 .slide-image-wrap .slide-image{
