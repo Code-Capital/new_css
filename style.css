@@ -290,7 +290,7 @@ input[type=checkbox] {
 }
 
 #cc .lp_six {
-    padding: 4rem;
+    padding:0 4rem 4rem 4rem;
 }
 
 #header_nav {
@@ -365,7 +365,7 @@ input[type=checkbox] {
 }
 
 .cc-widget--content .textbox {
-    padding: 4rem !important;
+    padding: 2rem 4rem !important;
 }
 
 #footer table {
@@ -411,11 +411,13 @@ a:-webkit-any-link{
 #cc input[type="submit"] {
     padding: 10px !important;
     border-radius: 8px !important;
-    border:1px solid rgba(0,137,156,1) !important;
+    color: #FFFFFF !important;
+    background-color: rgba(0,137,156,1) !important;
+    border:2px solid #FFFFFF !important;
 }
 #cc input[type="submit"]:hover {
-    border:1px solid rgba(0,137,156,1) !important;
-    color: rgba(0,137,156,1) !important;
+    border:2px solid #FFFFFF !important;
+    color: #FFFFFF !important;
     background-color: transparent !important;
 }
 
@@ -428,6 +430,8 @@ a:-webkit-any-link{
 }
 #cc .lp_ss_box01{
     background-color: unset !important;
+    padding: unset !important;
+    padding: unset !important;
 }
 
 .cc_limit_width.pagemaker-widget.cc-widget--search{
@@ -440,7 +444,12 @@ a:-webkit-any-link{
     left: 0 !important;
     right: 0 !important;
 }
-
+#cc_lay_an {
+    padding: 20px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media only screen and (min-width: 768px){
     #header_nav.cc-headernav-sticky #menu {
         position: relative !important;
