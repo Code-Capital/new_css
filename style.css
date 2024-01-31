@@ -426,22 +426,19 @@ a:-webkit-any-link{
 #ship .page_content_1{
     column-count: 1 !important;
 }
-
-
-{
-    padding-top: 5px;
+#cc .lp_ss_box01{
     background-color: unset !important;
-    background-image: url(https://images.cruisec.net/images/imgdb/200281/4747ce602396373bfcfe0a3ef5e3efe8.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #006699;
-    font-family: "robotolight",sans-serif;
-    position: absolute;
-    top: 40%;
-    width: 100%;
-    left: 0;
-    right: 0;
+}
+
+.cc_limit_width.pagemaker-widget.cc-widget--search{
+    padding-top: 5px !important;
+    color: #006699 !important;
+    font-family: "robotolight",sans-serif !important;
+    position: absolute !important;
+    top: 40% !important;
+    width: 100% !important;
+    left: 0 !important;
+    right: 0 !important;
 }
 
 @media only screen and (min-width: 768px){
