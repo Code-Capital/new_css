@@ -377,7 +377,10 @@ input[type=checkbox] {
     margin-block-start: 0em !important;
     margin-block-end: 1em !important;
 }
-#footer table tbody tr td p strong span , #footer table tbody tr td p strong span a{
+#footer table tbody tr td p strong span ,
+#footer table tbody tr td p strong span a ,
+#footer table tbody tr td span,
+#footer table tbody tr td span a{
     line-height: 1.6;
 }
 #footer table tbody tr td {
