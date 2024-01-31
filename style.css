@@ -402,6 +402,10 @@ input[type=checkbox] {
     color: rgba(0,137,156,1) !important;
     background-color: transparent !important;
 }
+#cc .page_content_1{
+    columns: 2;
+    column-gap: 20px;
+}
 @media only screen and (min-width: 768px){
     #header_nav.cc-headernav-sticky #menu {
         position: relative !important;
