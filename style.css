@@ -452,6 +452,7 @@ padding-right: unset !important;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #FFFFFF;
 }
 @media only screen and (min-width: 768px){
     #header_nav.cc-headernav-sticky #menu {
