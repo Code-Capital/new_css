@@ -437,6 +437,9 @@ a:-webkit-any-link{
 .cc_limit_width.pagemaker-widget.cc-widget--search{
     padding-top: 5px !important;
     color: #006699 !important;
+    background-color: unset !important;
+    padding-left: unset !important;
+padding-right: unset !important;
     font-family: "robotolight",sans-serif !important;
     position: absolute !important;
     top: 40% !important;
