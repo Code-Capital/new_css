@@ -380,6 +380,9 @@ input[type=checkbox] {
 #footer table tbody tr td p strong span , #footer table tbody tr td p strong span a{
     line-height: 1.6;
 }
+#footer table tbody tr td {
+    vertical-align: top !important;
+}
 a:-webkit-any-link{
     text-decoration: none !important;
 }
