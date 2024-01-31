@@ -24,7 +24,8 @@ html {
 
 @media only screen and (min-width: 769px) {
     #header > .cc_limit_width {
-        height: 450px;
+        min-height: 100vh;
+        height: 100vh;
     }
 }
 #footer {
@@ -425,6 +426,24 @@ a:-webkit-any-link{
 #ship .page_content_1{
     column-count: 1 !important;
 }
+
+
+{
+    padding-top: 5px;
+    background-color: unset !important;
+    background-image: url(https://images.cruisec.net/images/imgdb/200281/4747ce602396373bfcfe0a3ef5e3efe8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #006699;
+    font-family: "robotolight",sans-serif;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
 @media only screen and (min-width: 768px){
     #header_nav.cc-headernav-sticky #menu {
         position: relative !important;
