@@ -379,8 +379,8 @@ input[type=checkbox] {
 }
 #footer table tbody tr td p strong span ,
 #footer table tbody tr td p strong span a ,
-#footer table tbody tr td span,
-#footer table tbody tr td span a{
+#footer table tbody tr td strong span,
+#footer table tbody tr td strong span a{
     line-height: 1.6;
 }
 #footer table tbody tr td {
