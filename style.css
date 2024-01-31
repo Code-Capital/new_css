@@ -377,6 +377,7 @@ input[type=checkbox] {
     margin-block-start: 0em !important;
     margin-block-end: 1em !important;
 }
+
 #footer table tbody tr td p strong span ,
 #footer table tbody tr td p strong span a ,
 #footer table tbody tr td strong span,
@@ -420,6 +421,9 @@ a:-webkit-any-link{
 #cc .page_content_1 , #cc .page_content_2 {
     column-count: 2 !important;
     column-gap: 20px !important;
+}
+#ship .page_content_1{
+    column-count: 1 !important;
 }
 @media only screen and (min-width: 768px){
     #header_nav.cc-headernav-sticky #menu {
